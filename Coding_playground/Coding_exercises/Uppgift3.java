@@ -16,13 +16,14 @@ class Uppgift3 {
             }
             else if (answer > 0 ){
                 System.out.println("Number is positiv");
-                if (answer > 1000000){
+                if (answer >= 1000000){
                     System.out.println("The number is a big number.");
                 }
             }
             else{
                 System.out.println("The numver is 0");
             }
+            sc.close();
         }
     }
     
