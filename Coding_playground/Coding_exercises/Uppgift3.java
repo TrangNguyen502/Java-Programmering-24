@@ -8,13 +8,13 @@ class Uppgift3 {
         Scanner sc = new Scanner(System.in);
         double answer = sc.nextDouble();
     
-            if (answer < 0 && answer <= 1){
+            if (answer < 0){
                 System.out.println("Number is negativ.");
                 if (answer <= 1){
                     System.out.println("The number is small.");
                 }
             }
-            else if (answer > 0 ){
+            else if (answer > 0){
                 System.out.println("Number is positiv");
                 if (answer >= 1000000){
                     System.out.println("The number is a big number.");
