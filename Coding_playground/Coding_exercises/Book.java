@@ -31,6 +31,6 @@ public class Book {
     public void printValues(Book bookObject){
         System.out.println("Tilter: " + bookObject.tilter);
         System.out.println("Author: " + bookObject.author);
-        System.out.println("Tilter: " + bookObject.tilter);
+        System.out.println("Year: " + bookObject.year);
     }
 }
