@@ -39,5 +39,6 @@ public class Main {
         book1.printValues(book1);
         System.out.println("Efter ändring book 4");
         book4.printValues(book4);
+        
     }
 }
